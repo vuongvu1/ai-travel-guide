@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "15.0.0-rc.0",
+    "pocketbase": "^0.21.3",
     "react": "19.0.0-rc-58af67a8f8-20240628",
     "react-dom": "19.0.0-rc-58af67a8f8-20240628"
   },
