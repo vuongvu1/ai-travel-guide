@@ -6,6 +6,7 @@ import PocketBase from "pocketbase";
 
 export default function CreateNote() {
   const router = useRouter();
+  // @ts-ignore
   const [state, formAction, isPending] = useActionState(async (_, formData) => {
     const title = formData.get("titleID");
     const content = formData.get("contentID");
