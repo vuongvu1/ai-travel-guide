@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { INote } from "../components/Note";
+import CreateNote from "./CreateNote";
 import PocketBase from "pocketbase";
 
 async function getNotes(): Promise<INote[]> {
@@ -24,6 +25,7 @@ export default async function NotesPage() {
           </li>
         ))}
       </ul>
+      <CreateNote />
     </div>
   );
 }
